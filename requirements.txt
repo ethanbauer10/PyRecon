@@ -1,0 +1,6 @@
+# PyRecon - Requirements
+# Install all dependencies with: pip install -r requirements.txt
+
+requests==2.31.0       # HTTP library used for directory bruteforcing and subdomain HTTP probing
+dnspython==2.4.2       # DNS resolution library used for subdomain discovery
+urllib3==2.0.7         # HTTP connection pooling, used internally by requests (retry + adapter logic)
